@@ -1,0 +1,6 @@
+cachedir: '/var/cache/r10k'
+
+sources:
+  mysource:
+    remote: 'ssh://git@github.com:tdeckers/r10k.git'
+    basedir: '/etc/puppetlabs/puppet/environments'
